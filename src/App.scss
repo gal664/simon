@@ -1,0 +1,38 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.simon{
+    width: 400px;
+    height: 400px;
+    background: rgb(219, 219, 219);
+    border-radius: 35%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.light{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    &.light_tl{
+        border-top-left-radius: 70%;
+    }
+
+    &.light_tr{
+        border-top-right-radius: 70%
+    }
+    
+    &.light_bl{
+        border-bottom-left-radius: 70%
+    }
+    
+    &.light_br{
+        border-bottom-right-radius: 70%
+    }
+}
